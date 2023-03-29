@@ -45,12 +45,6 @@ df.head()
 df["Hizmet"] = [str(row[1]) + "_" + str(row[2]) for row in df.values]
 df.head()
 
-# df["Hizmet"] = df[["ServiceId", "CategoryId"]].apply(lambda x: "_".join(x.astype(str)), axis=1)
-# df["Hizmet"] = df.apply(lambda x: str(x["ServiceId"]) + "_" + str(x["CategoryId"]), axis=1)
-# df["Hizmet"] = df["ServiceId"].astype(str) + "_" + df["CategoryId"].astype(str)
-
-
-
 
 # Adım 3: Veri seti hizmetlerin alındığı tarih ve saatten oluşmaktadır, herhangi bir sepet tanımı (fatura vb. ) bulunmamaktadır.
 # Association Rule Learning uygulayabilmek için bir sepet (fatura vb.) tanımı oluşturulması gerekmektedir.
