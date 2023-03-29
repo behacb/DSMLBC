@@ -73,9 +73,9 @@ pd.set_option('display.float_format', lambda x: '%.5f' % x)
 #####################################################
 
 # Adım 1:  ab_testing_data.xlsx adlı kontrol ve test grubu verilerinden oluşan veri setini okutunuz. Kontrol ve test grubu verilerini ayrı değişkenlere atayınız.
-df_c = pd.read_excel("C:\\Users\\bedir\\Desktop\\bedoli\\DSMLBC\\measurement_problems\\odev\\ABTesti\\ab_testing.xlsx",sheet_name="Control Group")
+df_c = pd.read_excel("ab_testing.xlsx",sheet_name="Control Group")
 df_c.head()
-df_t = pd.read_excel("C:\\Users\\bedir\\Desktop\\bedoli\\DSMLBC\\measurement_problems\\odev\\ABTesti\\ab_testing.xlsx",sheet_name="Test Group")
+df_t = pd.read_excel("ab_testing.xlsx",sheet_name="Test Group")
 df_t.head()
 # Adım 2: Kontrol ve test grubu verilerini analiz ediniz.
 df_c.describe().T
