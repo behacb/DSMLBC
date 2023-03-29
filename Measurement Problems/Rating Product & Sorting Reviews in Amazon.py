@@ -37,7 +37,7 @@
 import pandas as pd
 import math
 import scipy.stats as st
-df=pd.read_csv("C:\\Users\\bedir\\Desktop\\bedoli\\DSMLBC\\measurement_problems\\odev\\RatingProduct&SortingReviewsinAmazon\\amazon_review.csv")
+df=pd.read_csv("amazon_review.csv")
 
 
 pd.set_option('display.max_columns', None)
