@@ -84,7 +84,6 @@ random_user_df.shape
 
 # Adım 3: Seçilen kullanıcının oy kullandığı filmleri movies_watched adında bir listeye atayınız.
 movies_watched = random_user_df.columns[random_user_df.notna().any()].to_list()
-# movies_watched = [col for col in random_user_df.columns if random_user_df[col].values[0] >= 0]
 movies_watched
 
 
