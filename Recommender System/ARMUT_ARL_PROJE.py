@@ -36,7 +36,7 @@ warnings.filterwarnings("ignore")
 #########################
 
 # Adım 1: armut_data.csv dosyasınız okutunuz.
-df_ = pd.read_csv("C:\\Users\\bedir\\Desktop\\bedoli\\DSMLBC\\recommender_systems\\odev\\armut_arl")
+df_ = pd.read_csv("armut_arl")
 df = df_.copy()
 df.head()
 
